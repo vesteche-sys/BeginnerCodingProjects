@@ -1,0 +1,34 @@
+#Notes from the Helsinki Website
+print("hello") #simple print command with a string of characters.
+print('"hey bitch," she said.') #simple print command with simple quotations to include quotation marks in the string.
+
+name = input("What's your name?") #this is a variable containing information given by the user through an input prompt, in this case both are name.
+print("Hello, " + name) #print command combined with previous stored info in the name variable, must be outside string.
+
+name = input("What is your name?")
+print("!" + name + "!" + name + "!") #wtf is this. Jk basically you can refer to the same variable multiple times
+
+#You can also have multiple inputs (variables) and print them together. If you input information into a variable after it had already been assigned a value, it replaces the previous information. Examples will follow later.
+name = input("What is your name?")
+lastname = input("What is your last name?")
+address = input("What's your address?")
+citypostal = input("What city and postal code?")
+print(name + " " + lastname)
+print(address)
+print(citypostal)
+
+#Telling a story of your choosing I guess
+name = input("Please type in a name:")
+year = input("Please type in a year:")
+
+print(name + " is a valiant knight, born in the year " + year + ". One morning " + name + " woke up to an awful racket: a dragon was approaching the village. Only " + name + " could save the village's residents.") #REMEMBER THE SPACES AND PUNCTUATION!!!
+
+
+#Variables are needed for various purposes in programming. You can use variables to store any information that will be needed later in the program's execution. You store values in variables.
+
+#It is often useful to name variables according to what they are used for. For example, if the variable contains a word, the name word is a better choice than, say, a.
+
+#There is no set limit to the length of a variable name in Python, but there are some other limitations. A variable name should begin with a letter, and it can only contain letters, numbers and underscores _.
+
+#The variables name, Name and NAME are all different variables.This rule has a few exceptions.
+
