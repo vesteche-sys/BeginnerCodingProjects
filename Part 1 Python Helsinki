@@ -32,3 +32,31 @@ print(name + " is a valiant knight, born in the year " + year + ". One morning "
 
 #The variables name, Name and NAME are all different variables.This rule has a few exceptions.
 
+#You can have integers and strings but they can't do the same operations.
+
+
+
+
+
+# F string example (I fixed this code from print commands with strings to f strings.
+
+name = "Tim Tester"
+age = 20
+skill1 = "python"
+level1 = "beginner"
+skill2 = "java"
+level2 = "veteran"
+skill3 = "programming"
+level3 = "semiprofessional"
+lower = 2000
+upper = 3000
+
+print(f"my name is {name}, I am {age} years old")
+print()
+print("my skills are")
+print(f" - {skill1} ({level1})") #REMEMBER THE SPACES BEFORE THE DASHES HERE
+print(f" - {skill2} ({level2})")
+print(f" - {skill3} ({level3})")
+print()
+print(f"I am looking for a job with a salary of {lower}-{upper} euros per month")
+
