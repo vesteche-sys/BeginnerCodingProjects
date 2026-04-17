@@ -89,7 +89,13 @@ print("there!") #This prints "Hi there!"
 
 #Python has an integer division operator (mathematical operation) //. If the operands (numbers) are integers, it will produce an integer. The result is rounded down to the nearest integer. For example this program
 
+#Asking the user for input, int() converts it into an integer for use in f-string to give result when multiplied by 5
+number = int(input("Please type in a number:"))
+print(f"{number} times 5 is {number*5}")
 
+#ASking for a number of days and calculating the amount of seconds in that many days.
+days = int(input("How many days?"))
+print(f"Seconds in that many days: {days*24*3600}") #24 hours in a day, 3600 seconds in an hour.
 
 
 
